@@ -16,7 +16,9 @@
     <description>jenkins-pr</description>
     <properties>
         <java.version>11</java.version>
+        <jacoco.version>0.8.6</jacoco.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -64,6 +66,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
         </plugins>
     </build>
 
