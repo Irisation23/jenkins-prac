@@ -4,6 +4,8 @@ import com.example.jenkinspr.dto.IphoneRequestDto;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.Arrays;
+
 @SpringBootTest
 class JenkinsPrApplicationTests {
 
@@ -20,6 +22,15 @@ class JenkinsPrApplicationTests {
         if(battery.equals(90L)) {
             System.out.println("굿");
         }
+
+    }
+
+    @Test
+    void testHelloWorld() {
+
+        String hello = "hello world";
+
+        System.out.println(hello);
 
     }
 
