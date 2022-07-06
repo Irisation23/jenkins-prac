@@ -21,6 +21,8 @@ class JenkinsPrApplicationTests {
 
         if(battery.equals(90L)) {
             System.out.println("굿잡");
+        }else {
+            System.out.println("안굿잡");
         }
 
     }
