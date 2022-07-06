@@ -11,5 +11,5 @@ public class IphoneRequestDto {
     public Long getBattery() {
         return battery;
     }
-    //
+    //하이
 }
