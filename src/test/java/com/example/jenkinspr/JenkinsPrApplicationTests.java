@@ -20,7 +20,7 @@ class JenkinsPrApplicationTests {
         Long battery = iphoneRequestDto.getBattery();
 
         if(battery.equals(90L)) {
-            System.out.println("굿");
+            System.out.println("굿잡");
         }
 
     }
